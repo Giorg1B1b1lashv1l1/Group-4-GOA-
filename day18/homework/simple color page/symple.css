@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poetsen One" ;
+}
+body{
+    overflow: hidden;
+}
+
+/* Header */
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 0px;
+    box-shadow: 0px 0px 15px black;
+
+}
+
+header .SH{
+    display: flex;
+    gap: 20px;
+}
+
+header h3{
+    color: dodgerblue;
+    font-weight: 100;
+}
+
+header .SH a{
+    color: #111;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .SH a:hover{
+    color: dodgerblue;
+}
+
+/* Main */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.maincontent h1{
+    color: #FFFFFF;
+    background-color: #212121;
+    padding: 15px ;
+    border: none;
+    border-radius: 10px;
+}
+
+.maincontent button{
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #212121;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.maincontent button:hover{
+    background-color: #212121;
+    color: #FFFFFF;
+}

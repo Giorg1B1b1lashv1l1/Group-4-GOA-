@@ -1,0 +1,36 @@
+.counter-container{
+    text-align: center;
+    font-family: Arial,  sans-serif;
+}
+
+.count-display{
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.counter-button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0px 5px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.f:hover{
+    background-color: tomato;
+}
+
+.s:hover{
+    background-color: black;
+}
+
+.t:hover{
+    background-color: rgb(10, 175, 10);
+}

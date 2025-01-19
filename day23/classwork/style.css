@@ -1,0 +1,32 @@
+
+main{
+    border: 1px solid black;
+    width: 200px;
+    transform: translate(500px,200px);
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section1content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1content button{
+    padding-inline: 20px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+}
+
+.container{
+    width: 300px;
+    border: 1px solid red;
+}
+

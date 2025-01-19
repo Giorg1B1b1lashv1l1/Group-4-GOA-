@@ -1,0 +1,38 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.input-1 , .input-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-1 button , .input-2 button{
+    font-size: 1.2rem ;
+    font-family: sans-serif;
+    background-color: rgb(62, 255, 62);
+    color: #000000;
+}
+
+.input-2 button{
+    background-color: red;
+    color: white;
+}
+
+input{
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}

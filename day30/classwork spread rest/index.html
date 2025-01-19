@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rectangle{
+            border: 3px solid red;
+            border-radius:10px ;
+            padding: 50px;
+            display: flex;
+            gap: 30px;
+        }
+
+        button{
+            width: 200px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            background-color: transparent;
+            padding: 10px 20px;
+            transition: 1s;
+            cursor: pointer;
+        }
+
+        button:nth-child(2){
+            background-color: rgb(248, 147, 129);
+            color: white;
+            
+        }
+
+        button:nth-child(2):hover{
+            background-color: rgb(255, 0, 0);
+        }
+
+        button:nth-child(1):hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangle">
+            <button onclick="handleAddItem()">Add Item</button>
+            <button onclick="handleDeleteItem()">Delete Item</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

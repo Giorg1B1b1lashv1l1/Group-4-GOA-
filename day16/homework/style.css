@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+}
+
+body{
+    height: 100vh;
+    background: url(/day16/homework/img/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    border: 3px solid #e83d13;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;
+    padding: 20px 30px;
+    background: url(img/bog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#num{
+    color: #fff;
+}
+
+i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#title{
+    color: #FFF;
+    transform: translateY(-20px);
+}
+
+
+.dollar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: translateY(-10px);
+}
+
+
+

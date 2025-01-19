@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/day19/classwork/project/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="registration-form">
+        <form>
+            <p>Register</p>
+            <input id="reg-name" type="text" placeholder="Name">
+            <input id="reg-pass" type="password" placeholder="Password">
+            <input onclick="register()" class="btn" type="button" value="Register">
+        </form>
+    
+    
+        <form id="loginform">
+            <p>Log In</p>
+            <input id="log-name" type="text" placeholder="Name">
+            <input id="log-pass" type="password" placeholder="Paswword">
+            <input onclick="logIn()" class="btn" type="button" value="Log-In">
+        </form>
+    </section>
+    <p id="alertt"></p>
+
+    <section class="acc">
+        <p>Account Name: <span id="accname"></span></p>
+    </section>
+
+    <script src="/day19/classwork/project/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(img/Time-Travel-Machine-Art-Concept.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#form1{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 70px 50px;
+    background-color: #11111193;
+    
+}
+
+#form1 input:nth-child(2){
+    padding: 10px 30px 10px 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#form1 input:nth-child(3){
+    padding: 10px 30px 10px 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#form1 input:nth-child(4){
+    padding: 10px 30px 10px 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#form1 input:nth-child(5){
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#form1 h1{
+    color: #fff;
+}
+
+
+#section1{
+    display: block;
+}
+
+#section2{
+    display: none;
+}
+
+
+.card{
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.438);
+    color: #fff;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.Atag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Atag a{
+    color: #fFF;
+}
+
+
+
+
+::placeholder{
+    color: #111;
+    font-weight: bold;
+    
+}
+
+/* Section3 */
+
+#timetravel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    padding: 20px 30px;
+    background-color: #1111118e;
+}
+
+#timetravel input{
+    margin: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+
+#timetravel .pi{
+    transform: translateY(-80px);
+}
+
+.pi p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+#section3{
+    display: none;
+}
+
+/* Section 4 */
+
+#section4 h1{
+    font-size: 5rem;
+    color: #111;
+    padding: 20px;
+    background: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.6),rgb(0, 0, 0));
+    border: none;
+    border-radius: 10px;
+}
+
+#section4{
+    display: none;
+}

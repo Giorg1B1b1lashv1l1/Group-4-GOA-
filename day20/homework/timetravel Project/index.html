@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/day20/homework/timetravel Project/style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <section id="section1">
+        <form id="form1">
+            <h1>Time Travel</h1>
+            <input id="name" type="text" placeholder="Name">
+            <input id="surname" type="text" placeholder="Surname">
+            <input id="age" type="number" placeholder="Age">
+
+            <input onclick="logIn()" type="button" value="Log In">
+        </form>
+    </section>
+
+    <section id="section2">
+        <div class="card">
+            <h2>Name: <span id="n1"></span></h2>
+            <h2>Surname: <span id="s1"></span></h2>
+            <h2>Age: <span id="a1"></span></h2>
+            <div class="Atag">
+                <p onclick="wantTravel()">Do you Want To Travel In Time?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <form id="timetravel">
+            <div class="pi"><p>How many years do you want to travel in time?</p></div>
+            <input id="travelinput" type="text" placeholder="Enter Here">
+            <input onclick="travelTime()" type="button" value="Travel">
+        </form>
+    </section>
+
+    <section id="section4">
+        <h1>You Are Now <span id="traveledage"></span>Years Old</h1>
+    </section>
+    
+
+    <script src="/day20/homework/timetravel Project/script.js"></script>
+</body>
+</html>

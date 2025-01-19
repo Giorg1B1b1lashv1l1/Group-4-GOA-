@@ -1,0 +1,123 @@
+@media(max-width:1520px){
+    nav{
+        display: none;
+    }
+    .section-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+}
+
+@media(max-width:930px){
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1-texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section1-texts h1{
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section1-texts P{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .section-1 img{
+        max-width: 30rem;
+    }
+
+    /* section 2*/
+
+    .section2-intro p{
+        width: 80%;
+    }
+
+    .section-3{
+        flex-direction: column;
+    }
+
+    .card1-section-intro h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .card1-section-intro p{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .card1-section-intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* section3 */
+
+    .section-4{
+        flex-direction: column;
+    }
+
+    .card2-section-intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card2-section-intro p{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .card2-section-intro a{
+        text-align: center;
+    }
+
+    /* section5 */
+    .section-5{
+        flex-direction: column;
+    }
+
+    .section5-intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section5-intro h1{
+        font-size: 30px;
+    }
+
+    .section5-intro p{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:610px){
+    main{
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width:500px){
+    .section2-intro p{
+        width: 100%;
+    }
+}
+
+

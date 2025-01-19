@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a3c0755996.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Registration Project/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="header">
+            <p id="accname"></p>
+        <button onclick="exit()">exit</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="main-reg">
+            <section id="section1">
+                <form class="registration">
+                    <p class="title">Register</p>
+                    <input class="input" id="reg-name" type="text" placeholder="Name">
+                    <input class="input" id="reg-surname" type="text" placeholder="Surname">
+                    <input class="input" id="reg-pass" type="password" placeholder="Password">
+    
+                    <p class="go-login-page">Already have an account?  <span onclick="toLog()">Log-In</span></p>
+                    <input onclick="register()" class="reg-submit" type="button" value="Register">
+                </form>
+            </section>
+        </div>
+
+        <div id="successfully-registered">
+            <div class="checked">
+                <i class='fas fa-chevron-circle-down' style='font-size:48px;color:greenyellow'></i>
+                <h1>You Have Successfully Registered</h1>
+            </div>
+            <div class="checked-login">
+                <h2 onclick="goToLogin()">Log-in</h2>
+            </div>
+        </div>
+
+        <div id="main-log">
+            <section id="section2">
+                <form class="log-in">
+                    <p class="title">Log-In</p>
+                    <input class="input" id="log-name" type="text" placeholder="Name">
+                    <input class="input" id="log-pass" type="password" placeholder="Password">
+                    <p id="donthaveacc"></p>
+    
+                    <p class="go-login-page">Don't have an account? <span onclick="toReg()">Register</span></p>
+                    <input onclick="logIn()" class="reg-submit" type="button" value="Log-In">
+                </form>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="/Registration Project/sctipt.js"></script>
+</body>
+</html>

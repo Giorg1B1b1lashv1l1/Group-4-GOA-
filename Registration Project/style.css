@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#main-header{
+    display: none;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(237, 255, 255);
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.header button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Registration */
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.input{
+    margin: 5px;
+    padding: 15px 20px ;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+.go-login-page{
+    margin: 10px;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
+.go-login-page span{
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.reg-submit{
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.reg-submit:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+#main-reg{
+    display: block;
+}
+
+/* Successfully Registered */
+
+.checked{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.checked-login{
+    margin-top: 20px;
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+#successfully-registered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(600px);
+    display: none;
+}
+
+/* login */
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.log-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#main-log{
+    display: none;
+}
+
+#donthaveacc{
+    margin: 20px;
+}

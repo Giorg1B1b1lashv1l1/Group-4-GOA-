@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    font-family: sans-serif;
+}
+
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#container h1{
+    font-size: 4rem;
+    color: white;
+}
+
+#content{
+    display: flex;
+    gap: 10px;
+}
+
+
+#content input{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 35px 10px 10px;
+}
+
+#content button{
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Section 2 */
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+#info h2{
+    font-size: 3rem;
+    color: white;
+}
+
+#content2{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+#content2 p {
+    color: white;
+    font-weight: bold;
+}
